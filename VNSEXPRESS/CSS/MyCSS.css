@@ -1,0 +1,29 @@
+﻿body {
+    background-color: antiquewhite;
+}
+
+    body .top-bar {
+        background-color: aquamarine;
+    }
+
+        body .top-bar .main-bar {
+            background-color: azure;
+            width: 80%;
+            display: flex;
+            flex-wrap: nowrap;
+            margin: auto;
+        }
+
+            body .top-bar .main-bar .contect-left {
+                width: 70%;
+                display: flex;
+                flex-wrap: nowrap;
+                gap: 10px;
+            }
+
+            body .top-bar .main-bar .login-right {
+                width: 30%;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+            }
